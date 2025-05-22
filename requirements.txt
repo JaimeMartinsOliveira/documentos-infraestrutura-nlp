@@ -1,1 +1,5 @@
-# Adicione suas dependências aqui
+streamlit
+scikit-learn
+pandas
+numpy
+nltk
