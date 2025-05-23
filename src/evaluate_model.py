@@ -22,7 +22,6 @@ def plot_confusion_matrix(y_true, y_pred, labels):
 
 
 if __name__ == "__main__":
-    # Exemplo simples de teste:
     y_true = [0, 1, 2, 2, 1]
     y_pred = [0, 2, 2, 2, 1]
     labels = ['Classe 0', 'Classe 1', 'Classe 2']
