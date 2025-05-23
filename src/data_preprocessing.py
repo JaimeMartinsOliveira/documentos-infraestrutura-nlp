@@ -20,7 +20,6 @@ def read_text_file(file_path: str) -> str:
         return f.read()
 
 def clean_text(text: str) -> str:
-    # Remove números, pontuação, múltiplos espaços e deixa tudo lowercase
     text = text.lower()
     text = re.sub(r'\d+', ' ', text)
     text = text.translate(str.maketrans('', '', string.punctuation))
@@ -51,7 +50,6 @@ def vectorize_text(corpus: List[str], max_features: int = 5000):
     return X, vectorizer
 
 if __name__ == "__main__":
-    # Exemplo rápido de uso:
     sample_text = "Este é um exemplo de texto técnico da área de infraestrutura, com números 123 e símbolos %$#."
     processed = preprocess_text(sample_text)
     print("Texto original:", sample_text)
