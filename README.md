@@ -7,7 +7,7 @@ Abaixo um exemplo da interface Streamlit em funcionamento:
 # Assistente Inteligente para Gestão de Projetos de Infraestrutura
 
 
-Este projeto tem como objetivo desenvolver um modelo de NLP capaz de classificar automaticamente trechos de texto relacionados a projetos de infraestrutura pública. Ele foi desenvolvido com foco em demonstrar competências técnicas aplicáveis à área de Inteligência Artificial e Ciência de Dados, com vistas à candidatura à vaga de Engenheiro de IA na Alvarez & Marsal.
+Este projeto tem como objetivo desenvolver um modelo de NLP capaz de classificar automaticamente trechos de texto relacionados a projetos de infraestrutura pública. Ele foi desenvolvido com foco em demonstrar competências técnicas aplicáveis à área de Inteligência Artificial e Ciência de Dados.
 
 ## 🎯 Objetivo
 
